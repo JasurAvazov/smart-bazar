@@ -4,14 +4,133 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.min.css?_v=20230211161400">
+    <link rel="stylesheet" href="css/style.min.css?_v=20230211172734">
     <title>Document</title>
   </head>
   <body> 
-    <header class="header" id="header"> 
-      <div class="container"></div>
+    <header class="header">
+      <div class="container"> 
+        <div class="header-top"><a class="header__logo news-close" href="#">SMART <span>BOZOR</span></a>
+          <button class="header__menu" type="button" aria-label="menu-btn"><span class="header__con-back-btn" /></button>
+          <form class="search" method="post" action="/?do=search">
+            <input class="search-input" type="hidden" name="do" value="Поиск"/>
+            <input class="search-input" type="hidden" name="subaction" value="Поиск"/>
+            <input class="search-input" name="story" type="search" id="search" placeholder="Поиск..."/>
+            <button class="search-btn" type="submit" aria-label="search-btn"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px"><path d="M 20.5 6 C 12.509634 6 6 12.50964 6 20.5 C 6 28.49036 12.509634 35 20.5 35 C 23.956359 35 27.133709 33.779044 29.628906 31.75 L 39.439453 41.560547 A 1.50015 1.50015 0 1 0 41.560547 39.439453 L 31.75 29.628906 C 33.779044 27.133709 35 23.956357 35 20.5 C 35 12.50964 28.490366 6 20.5 6 z M 20.5 9 C 26.869047 9 32 14.130957 32 20.5 C 32 23.602612 30.776198 26.405717 28.791016 28.470703 A 1.50015 1.50015 0 0 0 28.470703 28.791016 C 26.405717 30.776199 23.602614 32 20.5 32 C 14.130953 32 9 26.869043 9 20.5 C 9 14.130957 14.130953 9 20.5 9 z"/></svg></button>
+          </form>
+          <div class="header__lang"> 
+            <div class="header__lang-title"><picture><source srcset="img/uz.webp" type="image/webp"><img src="img/uz.png" alt=""/></picture>
+              <p>uz</p>
+            </div>
+            <div class="header__lang-toggle">
+              <div class="header__lang-toggle-btn active" img-path="img/uz.png"><picture><source srcset="img/uz.webp" type="image/webp"><img src="img/uz.png" alt=""/></picture>
+                <p>uz</p>
+              </div>
+              <div class="header__lang-toggle-btn" img-path="img/ru.png"><picture><source srcset="img/ru.webp" type="image/webp"><img src="img/ru.png" alt=""/></picture>
+                <p>ru</p>
+              </div>
+              <div class="header__lang-toggle-btn" img-path="img/en.png"><picture><source srcset="img/en.webp" type="image/webp"><img src="img/en.png" alt=""/></picture>
+                <p>en</p>
+              </div>
+            </div>
+          </div>
+          <button class="header-signup" type="button" aria-label="signup">
+            <p>Вход</p>
+          </button>
+        </div>
+        <div class="header-bot">
+          <ul> 
+            <li><a href="#">Телефоны</a></li>
+            <li><a href="#">Телефоны</a></li>
+            <li><a href="#">Телефоны</a></li>
+            <li><a href="#">Телефоны</a></li>
+            <li><a href="#">Телефоны</a></li>
+            <li><a href="#">Телефоны</a></li>
+            <li><a href="#">Телефоны</a></li>
+            <li><a href="#">Телефоны</a></li>
+            <li><a href="#">Телефоны</a></li>
+          </ul>
+        </div>
+      </div>
     </header>
-    <div class="wrapper"> </div>
-    <script src="js/app.min.js?_v=20230211161400"> </script>
+    <div class="wrapper"> 
+      <section class="main" id="main"> 
+        <div class="container"> 
+          <div class="category">
+            <h2 class="category-title">Категории</h2>
+            <ul>
+              <li> <a href="#">dsadasdsad</a></li>
+              <li> <a href="#">dsadasdsad</a></li>
+              <li> <a href="#">dsadasdsad</a></li>
+              <li> <a href="#">dsadasdsad</a></li>
+              <li> <a href="#">dsadasdsad</a></li>
+              <li> <a href="#">dsadasdsad</a></li>
+              <li> <a href="#">dsadasdsad</a></li>
+              <li> <a href="#">dsadasdsad</a></li>
+              <li> <a href="#">dsadasdsad</a></li>
+              <li> <a href="#">dsadasdsad</a></li>
+              <li> <a href="#">dsadasdsad</a></li>
+              <li> <a href="#">dsadasdsad</a></li>
+            </ul>
+          </div>
+          <div class="popular">
+            <h2 class="popular-title">Популярные товары</h2>
+            <div class="popular-box"><a class="popular-card" href="#">
+                <div class="popular-card__img"> <picture><source srcset="https://media.4rgos.it/i/Argos/9520103_R_Z001A?w=750&amp;h=440&amp;qlt=70" type="image/webp"><img src="https://media.4rgos.it/i/Argos/9520103_R_Z001A?w=750&amp;h=440&amp;qlt=70" alt="" draggable="false"/></picture></div>
+                <h5 class="popular-card__title">Смартфон realme C35 4/128GB</h5>
+                <p class="popular-card__review">3 отзыва</p>
+                <p class="popular-card__price">От 03232131 сум</p></a><a class="popular-card" href="#">
+                <div class="popular-card__img"> <picture><source srcset="https://media.4rgos.it/i/Argos/9520103_R_Z001A?w=750&amp;h=440&amp;qlt=70" type="image/webp"><img src="https://media.4rgos.it/i/Argos/9520103_R_Z001A?w=750&amp;h=440&amp;qlt=70" alt="" draggable="false"/></picture></div>
+                <h5 class="popular-card__title">Смартфон realme C35 4/128GB</h5>
+                <p class="popular-card__review">3 отзыва</p>
+                <p class="popular-card__price">От 03232131 сум</p></a><a class="popular-card" href="#">
+                <div class="popular-card__img"> <picture><source srcset="https://media.4rgos.it/i/Argos/9520103_R_Z001A?w=750&amp;h=440&amp;qlt=70" type="image/webp"><img src="https://media.4rgos.it/i/Argos/9520103_R_Z001A?w=750&amp;h=440&amp;qlt=70" alt="" draggable="false"/></picture></div>
+                <h5 class="popular-card__title">Смартфон realme C35 4/128GB</h5>
+                <p class="popular-card__review">3 отзыва</p>
+                <p class="popular-card__price">От 03232131 сум</p></a><a class="popular-card" href="#">
+                <div class="popular-card__img"> <picture><source srcset="https://media.4rgos.it/i/Argos/9520103_R_Z001A?w=750&amp;h=440&amp;qlt=70" type="image/webp"><img src="https://media.4rgos.it/i/Argos/9520103_R_Z001A?w=750&amp;h=440&amp;qlt=70" alt="" draggable="false"/></picture></div>
+                <h5 class="popular-card__title">Смартфон realme C35 4/128GB</h5>
+                <p class="popular-card__review">3 отзыва</p>
+                <p class="popular-card__price">От 03232131 сум</p></a><a class="popular-card" href="#">
+                <div class="popular-card__img"> <picture><source srcset="https://media.4rgos.it/i/Argos/9520103_R_Z001A?w=750&amp;h=440&amp;qlt=70" type="image/webp"><img src="https://media.4rgos.it/i/Argos/9520103_R_Z001A?w=750&amp;h=440&amp;qlt=70" alt="" draggable="false"/></picture></div>
+                <h5 class="popular-card__title">Смартфон realme C35 4/128GB</h5>
+                <p class="popular-card__review">3 отзыва</p>
+                <p class="popular-card__price">От 03232131 сум</p></a><a class="popular-card" href="#">
+                <div class="popular-card__img"> <picture><source srcset="https://media.4rgos.it/i/Argos/9520103_R_Z001A?w=750&amp;h=440&amp;qlt=70" type="image/webp"><img src="https://media.4rgos.it/i/Argos/9520103_R_Z001A?w=750&amp;h=440&amp;qlt=70" alt="" draggable="false"/></picture></div>
+                <h5 class="popular-card__title">Смартфон realme C35 4/128GB</h5>
+                <p class="popular-card__review">3 отзыва</p>
+                <p class="popular-card__price">От 03232131 сум</p></a><a class="popular-card" href="#">
+                <div class="popular-card__img"> <picture><source srcset="https://media.4rgos.it/i/Argos/9520103_R_Z001A?w=750&amp;h=440&amp;qlt=70" type="image/webp"><img src="https://media.4rgos.it/i/Argos/9520103_R_Z001A?w=750&amp;h=440&amp;qlt=70" alt="" draggable="false"/></picture></div>
+                <h5 class="popular-card__title">Смартфон realme C35 4/128GB</h5>
+                <p class="popular-card__review">3 отзыва</p>
+                <p class="popular-card__price">От 03232131 сум</p></a><a class="popular-card" href="#">
+                <div class="popular-card__img"> <picture><source srcset="https://media.4rgos.it/i/Argos/9520103_R_Z001A?w=750&amp;h=440&amp;qlt=70" type="image/webp"><img src="https://media.4rgos.it/i/Argos/9520103_R_Z001A?w=750&amp;h=440&amp;qlt=70" alt="" draggable="false"/></picture></div>
+                <h5 class="popular-card__title">Смартфон realme C35 4/128GB</h5>
+                <p class="popular-card__review">3 отзыва</p>
+                <p class="popular-card__price">От 03232131 сум</p></a><a class="popular-card" href="#">
+                <div class="popular-card__img"> <picture><source srcset="https://media.4rgos.it/i/Argos/9520103_R_Z001A?w=750&amp;h=440&amp;qlt=70" type="image/webp"><img src="https://media.4rgos.it/i/Argos/9520103_R_Z001A?w=750&amp;h=440&amp;qlt=70" alt="" draggable="false"/></picture></div>
+                <h5 class="popular-card__title">Смартфон realme C35 4/128GB</h5>
+                <p class="popular-card__review">3 отзыва</p>
+                <p class="popular-card__price">От 03232131 сум</p></a><a class="popular-card" href="#">
+                <div class="popular-card__img"> <picture><source srcset="https://media.4rgos.it/i/Argos/9520103_R_Z001A?w=750&amp;h=440&amp;qlt=70" type="image/webp"><img src="https://media.4rgos.it/i/Argos/9520103_R_Z001A?w=750&amp;h=440&amp;qlt=70" alt="" draggable="false"/></picture></div>
+                <h5 class="popular-card__title">Смартфон realme C35 4/128GB</h5>
+                <p class="popular-card__review">3 отзыва</p>
+                <p class="popular-card__price">От 03232131 сум</p></a><a class="popular-card" href="#">
+                <div class="popular-card__img"> <picture><source srcset="https://media.4rgos.it/i/Argos/9520103_R_Z001A?w=750&amp;h=440&amp;qlt=70" type="image/webp"><img src="https://media.4rgos.it/i/Argos/9520103_R_Z001A?w=750&amp;h=440&amp;qlt=70" alt="" draggable="false"/></picture></div>
+                <h5 class="popular-card__title">Смартфон realme C35 4/128GB</h5>
+                <p class="popular-card__review">3 отзыва</p>
+                <p class="popular-card__price">От 03232131 сум</p></a><a class="popular-card" href="#">
+                <div class="popular-card__img"> <picture><source srcset="https://media.4rgos.it/i/Argos/9520103_R_Z001A?w=750&amp;h=440&amp;qlt=70" type="image/webp"><img src="https://media.4rgos.it/i/Argos/9520103_R_Z001A?w=750&amp;h=440&amp;qlt=70" alt="" draggable="false"/></picture></div>
+                <h5 class="popular-card__title">Смартфон realme C35 4/128GB</h5>
+                <p class="popular-card__review">3 отзыва</p>
+                <p class="popular-card__price">От 03232131 сум</p></a></div>
+            <button class="popular-more" type="button">Показать ещё</button>
+          </div>
+        </div>
+      </section>
+      <section class="category"> </section>
+      <section class="about"> </section>
+    </div>
+    <script src="js/app.min.js?_v=20230211172734"> </script>
   </body>
 </html>

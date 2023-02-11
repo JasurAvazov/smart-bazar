@@ -1,4 +1,5 @@
 include components/header 
+include components/main 
 
 doctype html
 html(lang="en")
@@ -11,5 +12,7 @@ html(lang="en")
     body 
         +header
         .wrapper 
-        
+            +main
+            section.category 
+            section.about 
         script(src="js/app.min.js") 
