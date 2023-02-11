@@ -4,7 +4,9 @@
     padding: 0;
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
-    font-family: sans-serif;
+    font-family: 'Rubik', sans-serif;
+    caret-color: transparent;
+    list-style: none;
     &:focus,
     &:active{
         outline: none;
@@ -12,19 +14,28 @@
 }
 html,
 body{
-    height: 100%;
+    overflow-x: hidden;
+    min-width: 320px;
     overscroll-behavior: none;
 }
-.wrapper{
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
-    .main{
-        flex: 1 1 auto;
-    }
+:root{
+    --primary-bg-color: #ffffff;
+    --primary-text-color: #383838;
+    --border-color: #d6d3d3;
+    --body-color: #f2f2f2;
+    --primary-blue: #58a6ff;
 }
+// .wrapper{
+//     display: flex;
+//     flex-direction: column;
+//     min-height: 100%;
+// }
 button{
     background: none;
     border: none;
     cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
