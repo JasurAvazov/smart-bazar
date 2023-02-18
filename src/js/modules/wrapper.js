@@ -2,7 +2,7 @@ export function init() {
     const mainOpenBtns = document.querySelectorAll('.mainOpen')
     const categoryOpenBtns = document.querySelectorAll('.categoryOpen')
 
-    const wrappers = document.querySelectorAll('section')
+    const wrappers = document.querySelectorAll('.wrapper section')
     const main = document.querySelector('.main')
     const category = document.querySelector('.product')
 

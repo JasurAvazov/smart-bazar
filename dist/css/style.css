@@ -383,7 +383,6 @@
 }
 
 .main {
-  margin-bottom: 30px;
   display: none;
 }
 
@@ -405,12 +404,12 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  gap: 30px;
+  gap: 20px;
 }
 
 .main .category {
   width: 100%;
-  padding: 30px;
+  padding: 20px;
   background-color: var(--primary-bg-color);
   border: 1px solid var(--border-color);
   border-radius: 6px;
@@ -444,7 +443,7 @@
 }
 
 .main .category a {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   color: var(--primary-text-color);
 }
@@ -461,7 +460,7 @@
   font-size: 24px;
   color: var(--primary-text-color);
   font-weight: 500;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .main .popular-box {
@@ -499,7 +498,7 @@
 
 .main .popular-card__img {
   width: 100%;
-  aspect-ratio: 16/10;
+  aspect-ratio: 16/9;
   border-radius: 6px;
   overflow: hidden;
   margin-bottom: 10px;
@@ -547,7 +546,7 @@
 }
 
 .products {
-  padding-top: 20px;
+  padding: 30px 0;
   background-color: #f8f9fa;
   display: none;
 }
@@ -574,7 +573,9 @@
   width: calc(100% - 260px);
   background-color: var(--primary-bg-color);
   border: 1px solid var(--border-color);
+  border-radius: 6px;
   padding: 20px;
+  margin-bottom: 20px;
 }
 
 .products__header span {
@@ -632,6 +633,7 @@
 .products-left {
   background-color: var(--primary-bg-color);
   border: 1px solid var(--border-color);
+  border-radius: 6px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -746,18 +748,14 @@
   border-color: #6c757d;
   font-weight: 400;
   line-height: 1.5;
-  border-radius: 4px;
-  height: 36px;
   border: 1px solid #6c757d;
+  border-radius: 6px;
+  height: 36px;
 }
 
 .products-left .card__filter-btn:hover {
   -webkit-box-shadow: 0px 0px 5px 1px #007bff;
           box-shadow: 0px 0px 5px 1px #007bff;
-}
-
-.products-left .card__list {
-  border-top: 1px solid var(--border-color);
 }
 
 .products-left .card__list li {
@@ -909,6 +907,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   border: 1px solid var(--border-color);
+  border-radius: 6px;
   color: #212529;
 }
 
@@ -970,6 +969,7 @@
   color: #495057;
   background-color: #fff;
   border: 1px solid #ced4da;
+  border-radius: 6px;
 }
 
 .products-right .filters__box .filter-input-btn {
@@ -978,7 +978,7 @@
   font-size: 14px;
   padding: 6px;
   line-height: 1.5;
-  border-radius: 4px;
+  border-radius: 6px;
   width: 100%;
 }
 
@@ -1070,7 +1070,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 .wrapper section {
