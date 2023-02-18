@@ -6,7 +6,6 @@ export function init() {
         })
     })
 
-
     const foo = document.querySelectorAll('.foo')
     foo.forEach(el => {
         el.addEventListener('click', () => {
@@ -14,7 +13,6 @@ export function init() {
             sections.forEach(el => {
                 el.classList.remove('active')
             })
-
         })
     })
 }
