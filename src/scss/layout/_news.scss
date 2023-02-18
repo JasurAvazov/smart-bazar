@@ -1,0 +1,9 @@
+.news{
+    margin-bottom: 20px;
+    &-container{
+        padding: 20px;
+        background-color: var(--primary-bg-color);
+        border-radius: 6px;
+        border: 1px solid var(--border-color);
+    }
+}

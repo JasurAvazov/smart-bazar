@@ -16,6 +16,7 @@ html,
 body{
     overflow-x: hidden;
     min-width: 360px;
+    background-color: var(--body-color);
 }
 :root{
     --primary-bg-color: #ffffff;
