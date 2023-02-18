@@ -1,0 +1,74 @@
+.content{
+    display: none;
+    &.active{
+        display: auto;
+    }
+    .container{
+        padding: 0 20px;
+    }
+    &-container{
+        padding: 20px;
+        background-color: red;
+        background-color: var(--primary-bg-color);
+        border: 1px solid var(--border-color);
+        border-radius: 6px;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .path{
+        display: flex;
+        list-style: none;
+        width: 100%;
+        li{
+            &:first-child{
+                &::before{
+                    content: '';
+                    display: none;
+                }
+            }
+            &::before{
+                content: '/';
+                display: inline;
+                margin: 0 0 0 8px;
+            }
+        }
+    }
+    &-title{
+        font-size: 24px;
+        color: var(--primary-text-color);
+        font-weight: 500;
+        margin: 15px 0 30px;
+        width: 100%;
+    }
+    &-left{
+        width: calc(100% - 300px);
+    }
+    &-right{
+        width: 300px;
+        padding: 20px;
+        background-color: green;
+    }
+    &-slider{
+        width: 60%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        .mySwiper2{
+            width: 100%;
+            height: calc(80% - 20px);
+            .swiper-slide{
+                background-color: gray;
+            }
+        }
+        .mySwiper{
+            width: 100%;
+            height: 20%;
+            .swiper-slide{
+                background-color: purple;
+            }
+        }
+    }
+}
