@@ -10,9 +10,6 @@
     'abstracts/mixins',
     'abstracts/placeholders';
 
-// vendors
-// @import 'vendors/bootstrap'
-
 // base
 @import 
     'base/reset',
@@ -20,9 +17,10 @@
 
 // layout
 @import 
-    'layout/main', 
-    'layout/header';
-
+    'layout/header',
+    'layout/main',
+    'layout/category';
+    
 // components
 @import 
     'components/buttons',
