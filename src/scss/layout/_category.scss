@@ -1,6 +1,10 @@
 .products {
     padding-top: 20px;
     background-color: #f8f9fa;
+    display: none;
+    .active{
+        display: auto;
+    }
     .container {
         display: flex;
         align-items: flex-start;

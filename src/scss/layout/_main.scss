@@ -1,5 +1,9 @@
 .main{
     margin-bottom: 30px;
+    display: none;
+    &.active{
+        display: auto;
+    }
     .container{
         display: flex;
         flex-direction: column;

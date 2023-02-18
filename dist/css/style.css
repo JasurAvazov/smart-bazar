@@ -384,6 +384,11 @@
 
 .main {
   margin-bottom: 30px;
+  display: none;
+}
+
+.main.active {
+  display: auto;
 }
 
 .main .container {
@@ -544,6 +549,11 @@
 .products {
   padding-top: 20px;
   background-color: #f8f9fa;
+  display: none;
+}
+
+.products .active {
+  display: auto;
 }
 
 .products .container {
@@ -1069,6 +1079,10 @@ body {
 
 .wrapper .active {
   display: block;
+}
+
+input {
+  caret-color: black;
 }
 
 button {
