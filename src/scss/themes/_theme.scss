@@ -29,12 +29,6 @@ body{
     display: flex;
     flex-direction: column;
     margin: 20px 0;
-    section{
-        display: none;
-    }
-    .active{
-        display: block;
-    }
 }
 input{
     caret-color: black;
