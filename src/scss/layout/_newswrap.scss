@@ -5,6 +5,9 @@
         display: grid;
         grid-template-columns: 10fr 3fr;
         gap: 20px;
+        @media (max-width: 992px) {
+            grid-template-columns: 1fr;
+        }
     }
     .time {
         margin-bottom: 20px;
@@ -20,6 +23,9 @@
         .top__news {
             display: flex;
             // height: 310px;
+            @media (max-width: 768px) {
+                flex-direction: column;
+            }
             &:hover {
                 .title {
                     text-decoration: underline;
@@ -28,6 +34,9 @@
             &-img {
                 width: 50%;
                 min-height: 100%;
+                @media (max-width: 768px) {
+                    width: 100%;
+                }
                 img {
                     border-radius: 4px;
                     width: 100%;
@@ -39,6 +48,12 @@
                 width: 50%;
                 padding: 25px;
                 background-color: #eff2f8;
+                @media (max-width: 768px) {
+                    width: 100%;
+                }
+                @media (max-width: 576px) {
+                    padding: 15px;
+                }
                 .title {
                     font-size: 22px;
                     line-height: 27px;
@@ -60,6 +75,9 @@
             grid-template-columns: 1fr 1fr;
             column-gap: 20px;
             row-gap: 30px;
+            @media (max-width: 768px) {
+                grid-template-columns: 1fr;
+            }
             &-item {
                 display: flex;
                 gap: 15px;
@@ -110,7 +128,7 @@
                 width: 100%;
                 border-bottom: 1px solid #cecece;
                 padding-bottom: 18px;
-                .time{
+                .time {
                     margin-bottom: 10px;
                 }
                 .title {
