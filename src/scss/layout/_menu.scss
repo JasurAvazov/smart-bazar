@@ -1,0 +1,49 @@
+.menu {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: var(--primary-bg-color);
+    &__btn {
+        display: flex;
+        justify-content: end;
+        width: 100%;
+        padding: 14px 16px;
+        .exit {
+            position: relative;
+            right: 0;
+            width: 30px;
+            margin-left: 4px;
+            height: 30px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &::before,
+            &::after {
+                content: "";
+                position: absolute;
+                display: block;
+                width: 30px;
+                height: 3px;
+                background: #285aeb;
+            }
+
+            &::before {
+                transform: rotate(45deg);
+            }
+
+            &::after {
+                transform: rotate(-45deg);
+            }
+        }
+    }
+    &__list{
+        
+    }
+}
