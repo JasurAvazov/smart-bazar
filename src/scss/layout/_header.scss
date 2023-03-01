@@ -12,13 +12,13 @@
         position: fixed;
         width: 100%;
         background: var(--primary-bg-color);
-        height: 63px;
+        height: 64px;
         border-bottom: 1px solid var(--border-color);
         @media (max-width: 768px) {
-            height: 101px;
+            height: 102px;
         }
         @media (max-width: 480px) {
-            height: 149px;
+            height: 150px;
         }
     }
 }

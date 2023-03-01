@@ -627,7 +627,7 @@ button.swiper-pagination-bullet {
   position: fixed;
   width: 100%;
   background: var(--primary-bg-color);
-  height: 63px;
+  height: 64px;
   border-bottom: 1px solid var(--border-color);
 }
 
@@ -3013,7 +3013,7 @@ a {
   }
 
   .under__header .fix__header {
-    height: 101px;
+    height: 102px;
   }
 
   .header-top {
@@ -3131,7 +3131,7 @@ a {
   }
 
   .under__header .fix__header {
-    height: 149px;
+    height: 150px;
   }
 
   .header .search {
